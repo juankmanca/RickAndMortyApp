@@ -1,0 +1,16 @@
+.container-md {
+  border: 1px solid #575757;
+  background: RGB(1, 1, 1, 0.8);
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  .container-md {
+    background: RGB(1, 1, 1, 0.8);
+    padding: 20px;
+    margin-top: 0px;
+    border: 0px;
+  }
+}

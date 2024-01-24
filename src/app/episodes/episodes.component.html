@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 
-<div class="container mt-3">
+<div class="container">
   <h1 class="text-white">Episodes</h1>
   <p class="text-white">Welcome to the exciting Rick and Morty series! Explore the interdimensional adventures of Rick, a mad scientist, and his grandson Morty. Discover fascinating worlds, quirky characters and irreverent humor.</p>
   <div class="mt-2">
@@ -10,7 +10,7 @@
     </mat-form-field>
   </div>
 
-  <div class="mat-elevation-z8">
+  <div class="mat-elevation-z8 overflow-auto">
     <table mat-table [dataSource]="this.dataSource">
       <!-- Position Column -->
       <ng-container matColumnDef="id">
