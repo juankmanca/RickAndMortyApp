@@ -1,0 +1,10 @@
+.buttons-content{
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+@media(min-width: 992px){
+  .buttons-content {
+    width: 800px;
+  }
+}
